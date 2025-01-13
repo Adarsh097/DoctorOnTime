@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 
 const AppContextProvider = (props) => {
   const currencySymbol = "$";
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl = `https://docontime.onrender.com`;
 
   const [doctors, setDoctors] = useState([]);
   const [token, setToken] = useState(localStorage.getItem('token')?localStorage.getItem('token'):false);
@@ -29,7 +29,7 @@ const AppContextProvider = (props) => {
 
   const loadUserProfileData = async()=>{
     try {
-      const {data} = await axios.get(backendUrl + '/api/user/get-profile',{headers:{token}})
+      const {data} = await axios.get(`https://docontime.onrender.com` + '/api/user/get-profile',{headers:{token}})
       if(data.success){
         setUserData(data.userData);
       }else{
