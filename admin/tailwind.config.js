@@ -1,5 +1,5 @@
 // tailwind.config.js
-module.exports = {
+export default  {
   content: [
     "./index.html",               // If using Vite
     "./public/index.html",         // If using Create React App
@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'primary': "#1c567a"
+        'primary': "#1c567a" 
       },
     },
   },
