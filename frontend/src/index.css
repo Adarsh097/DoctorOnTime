@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=SUSE:wght@100..800&family=Sevillana&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: Outfit;
+}
+
+/* This will select all the <hr> element in the element with class -> active and make the <hr> element styling as block from hidden */
+.active hr{
+  @apply block
+}
+
+
+
+/* to make the scroll bar hidden */
+::-webkit-scrollbar{
+  @apply hidden
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+@media (max-width:740px){
+  .active p{
+    @apply text-white bg-primary
+  }
+}
