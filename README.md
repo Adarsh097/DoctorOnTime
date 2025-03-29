@@ -1,5 +1,5 @@
 # DocOnTime
-**Client Side**: [https://doctor-on-time-git-main-adarshgupta0601-gmailcoms-projects.vercel.app/].
+**Client Side**: [https://doctor-on-time-git-main-adarshgupta0601-gmailcoms-projects.vercel.app].
 **Admin Side**: [https://doctor-on-time-admin-cx8kom3s4.vercel.app].
 
 ## Overview
