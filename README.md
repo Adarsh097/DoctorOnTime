@@ -40,11 +40,15 @@ npm install
 
 # Start the backend server
 cd backend
-npm run dev
+npm run start
 
 # Start the frontend
 cd ../frontend
-npm start
+npm run dev
+
+# Start the admin
+cd ../admin
+npm run dev
 ```
 
 ## Contributing
@@ -54,5 +58,5 @@ Contributions are welcome! Feel free to submit pull requests or report issues.
 This project is licensed under the MIT License.
 
 ## Contact
-For queries, reach out at [your-email@example.com].
+For queries, reach out at [adarshgupta0601@gmail.com].
 
