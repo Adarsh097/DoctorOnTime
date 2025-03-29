@@ -85,7 +85,7 @@ const Login = () => {
           <input
             className='hover:scale-105 transition-all duration-500 w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:border-indigo-500'
             type="password"
-            placeholder="Enter your password"
+            placeholder="Min 8 chars, 1 digit, 1 uppercase, 1 symbol"
             onChange={(e) => setPassword(e.target.value)}
             value={password}
             required
