@@ -2,6 +2,8 @@
 **Client Side**: [https://doctor-on-time-git-main-adarshgupta0601-gmailcoms-projects.vercel.app].
 **Admin Side**: [https://doctor-on-time-admin-cx8kom3s4.vercel.app].
 
+## Admin-Side Credentials: adarshdevelops@gmail.com, Ad@rsh0807
+
 ## Overview
 DocOnTime is a doctor appointment booking platform built using the **MERN** stack (MongoDB, Express.js, React.js, Node.js). It provides two interfaces:
 1. **Admin Panel** – Enables efficient doctor profile management, appointment scheduling, and system monitoring.
